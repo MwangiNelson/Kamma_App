@@ -14,4 +14,6 @@
     <string name="full_name">Full name.</string>
     <string name="e_mail">E-mail</string>
     <string name="phone_no">Phone no.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

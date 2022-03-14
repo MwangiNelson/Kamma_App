@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".register_fragment">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/k_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        android:contentDescription="@string/logo" />
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:autofillHints="Username"
+        android:background="#50000000"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10sp"
+        android:ems="10"
+        android:fontFamily="@font/barlow_condensed_medium"
+        android:hint="@string/full_name"
+        android:inputType="textEmailAddress"
+        android:padding="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/userEmail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:autofillHints="Your e-mail goes here."
+        android:background="#50000000"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:drawablePadding="10sp"
+        android:ems="10"
+        android:fontFamily="@font/barlow_condensed_medium"
+        android:hint="@string/e_mail"
+        android:inputType="textEmailAddress"
+        android:padding="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.485"
+        tools:ignore="TextContrastCheck" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.57">
+
+        <com.hbb20.CountryCodePicker
+            android:layout_width="wrap_content"
+            app:ccp_defaultNameCode="KE"
+            android:layout_height="50dp"
+            android:background="#50FFFFFF"
+            android:gravity="center"
+            app:ccp_textGravity="CENTER" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:autofillHints="Phone number"
+            android:background="#50000000"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:fontFamily="@font/barlow_condensed_medium"
+            android:hint="@string/phone_no"
+            android:inputType="phone"
+            android:paddingStart="10dp"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/userPassword2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:autofillHints="Your password goes here"
+
+        android:background="#50000000"
+        android:drawableStart="@drawable/ic_baseline_vpn_key_24"
+        android:drawablePadding="10sp"
+        android:fontFamily="@font/barlow_condensed_medium"
+        android:hint="@string/password"
+
+
+        android:inputType="textPassword"
+        android:padding="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.655"
+        tools:ignore="TextContrastCheck" />
+    <EditText
+        android:id="@+id/confirm_password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:autofillHints="Confirm password."
+
+        android:background="#50000000"
+        android:drawableStart="@drawable/ic_baseline_info_24"
+        android:drawablePadding="10sp"
+        android:fontFamily="@font/barlow_condensed_medium"
+        android:hint="@string/confirm_password"
+
+
+        android:inputType="textPassword"
+        android:padding="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.74"
+        tools:ignore="TextContrastCheck" />
+    <Button
+
+        android:id="@+id/register_button"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+
+        android:fontFamily="@font/barlow_condensed_medium"
+        android:padding="10sp"
+        android:text="@string/sign_up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825" />
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_button"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/barlow_condensed_medium"
+            android:gravity="end"
+
+            android:text="@string/already_have_an_account"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/login_link"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/barlow_condensed_medium"
+            android:text="@string/log_in_here"
+            android:textColor="@color/teal_700"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
