@@ -2,5 +2,6 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/barlow_condensed_medium</item>
+        <item>@font/barlow_condensed_semibold</item>
     </array>
 </resources>
