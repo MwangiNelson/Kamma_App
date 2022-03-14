@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "760389834884",
+    "project_id": "nelson-s",
+    "storage_bucket": "nelson-s.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760389834884:android:8f636a0b2bcd984f400ad1",
+        "android_client_info": {
+          "package_name": "com.example.trd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760389834884-5dkrq620caroefeqlt0b0un7t28uj86r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXy1YOzuPbCyZho6xwLgjYKCtnvFR8q6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760389834884-5dkrq620caroefeqlt0b0un7t28uj86r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

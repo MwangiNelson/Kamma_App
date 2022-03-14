@@ -137,6 +137,7 @@
         android:layout_marginTop="16dp"
         android:background="#50000000"
         app:layout_constraintBottom_toTopOf="@+id/card_1"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -293,9 +294,10 @@
                 android:padding="5dp"
                 android:shadowColor="#2B2E2E"
                 android:shadowRadius="10"
-                android:text="View History >>"
+                android:text="View Full History >>"
 
-                android:textColor="@color/teal_700" />
+                android:textColor="@color/teal_700"
+                tools:ignore="TextContrastCheck" />
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
@@ -312,7 +314,7 @@
         app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView"
-        app:layout_constraintVertical_bias="0.05" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView10"
