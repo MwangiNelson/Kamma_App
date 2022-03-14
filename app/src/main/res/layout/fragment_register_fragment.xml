@@ -12,15 +12,16 @@
         android:id="@+id/imageView4"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:contentDescription="@string/logo"
         android:src="@drawable/k_logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.05"
-        android:contentDescription="@string/logo" />
+        app:layout_constraintVertical_bias="0.05" />
+
     <EditText
-        android:id="@+id/userName"
+        android:id="@+id/searchBar"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:autofillHints="Username"
@@ -74,10 +75,10 @@
 
         <com.hbb20.CountryCodePicker
             android:layout_width="wrap_content"
-            app:ccp_defaultNameCode="KE"
             android:layout_height="50dp"
             android:background="#50FFFFFF"
             android:gravity="center"
+            app:ccp_defaultNameCode="KE"
             app:ccp_textGravity="CENTER" />
 
         <EditText
@@ -92,6 +93,7 @@
             android:fontFamily="@font/barlow_condensed_medium"
             android:hint="@string/phone_no"
             android:inputType="phone"
+            android:maxLength="9"
             android:paddingStart="10dp"
             tools:ignore="TextContrastCheck" />
     </LinearLayout>
@@ -118,6 +120,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.655"
         tools:ignore="TextContrastCheck" />
+
     <EditText
         android:id="@+id/confirm_password"
         android:layout_width="300dp"
@@ -139,6 +142,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.74"
         tools:ignore="TextContrastCheck" />
+
     <Button
 
         android:id="@+id/register_button"
@@ -155,6 +159,7 @@
 
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.825" />
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="300dp"
@@ -192,6 +197,38 @@
             tools:ignore="TextContrastCheck" />
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/barlow_condensed_medium"
+            android:gravity="end"
+            android:text="By registering you are agreeing to "
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:fontFamily="@font/barlow_condensed_medium"
+            android:text="Terms &amp; Conditions"
+            android:textColor="#00BCD4" />
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -45,7 +45,7 @@
     </LinearLayout>
 
     <EditText
-        android:id="@+id/userName"
+        android:id="@+id/searchBar"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:autofillHints="Your name goes here"
