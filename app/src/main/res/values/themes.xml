@@ -3,8 +3,9 @@
     <style name="Theme.TRD" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorPrimaryDark">@color/dark_transparent</item>
         <item name="colorAccent">@color/teal_200</item>
+
         <!-- Customize your theme here. -->
     </style>
     <style name="Theme.TRD.NoActionBar">
@@ -13,4 +14,11 @@
     </style>
     <style name="Theme.TRD.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="Theme.TRD.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="all_text" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:textViewStyle">@style/text_font</item>
+    </style>
+    <style name="text_font" parent= "android:Widget.TextView">
+         <item name="fontFamily">@font/barlow_condensed_medium</item>
+    </style>
 </resources>

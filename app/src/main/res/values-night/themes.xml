@@ -3,7 +3,7 @@
     <style name="Theme.TRD" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorPrimaryDark">@color/dark_transparent</item>
         <item name="colorAccent">@color/teal_200</item>
         <!-- Customize your theme here. -->
     </style>
