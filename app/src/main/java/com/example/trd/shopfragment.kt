@@ -6,14 +6,15 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import android.widget.*
 import androidx.navigation.findNavController
 
 
-class register_fragment : Fragment() {
+class shopfragment : Fragment() {
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
     }
 
     override fun onCreateView(
@@ -21,12 +22,8 @@ class register_fragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_register_fragment, container, false)
+        return inflater.inflate(R.layout.fragment_shopfragment, container, false)
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        view.findViewById<TextView>(R.id.login_link).setOnClickListener {
-            view.findNavController().navigate(R.id.action_register_fragment_to_login_fragment)
-        }
-    }
+
 }

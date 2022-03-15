@@ -36,5 +36,20 @@
         android:id="@+id/landing_fragment"
         android:name="com.example.trd.landing_fragment"
         android:label="fragment_landing_fragment"
-        tools:layout="@layout/fragment_landing_fragment" />
+        tools:layout="@layout/fragment_landing_fragment" >
+        <action
+            android:id="@+id/action_landing_fragment_to_shopfragment3"
+            app:destination="@id/shopfragment3"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/shopfragment3"
+        android:name="com.example.trd.shopfragment"
+        android:label="fragment_shopfragment"
+        tools:layout="@layout/fragment_shopfragment" >
+        <action
+            android:id="@+id/action_shopfragment3_to_landing_fragment"
+            app:destination="@id/landing_fragment" />
+    </fragment>
 </navigation>
