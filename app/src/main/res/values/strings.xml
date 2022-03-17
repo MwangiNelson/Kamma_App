@@ -24,4 +24,5 @@
     <string name="stores">STORES</string>
     <string name="categories">CATEGORIES</string>
     <string name="items">ITEMS</string>
+    <string name="title_activity_shop_store">shop_store</string>
 </resources>

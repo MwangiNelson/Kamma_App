@@ -8,17 +8,30 @@
 
         <!-- Customize your theme here. -->
     </style>
+
     <style name="Theme.TRD.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+
     <style name="Theme.TRD.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
     <style name="Theme.TRD.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
     <style name="all_text" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:textViewStyle">@style/text_font</item>
     </style>
-    <style name="text_font" parent= "android:Widget.TextView">
-         <item name="fontFamily">@font/barlow_condensed_medium</item>
+
+    <style name="text_font" parent="android:Widget.TextView">
+        <item name="fontFamily">@font/barlow_condensed_medium</item>
     </style>
+
+    <style name="all_text.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="all_text.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="all_text.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

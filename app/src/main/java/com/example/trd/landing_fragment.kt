@@ -24,10 +24,5 @@ class landing_fragment : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_landing_fragment, container, false)
     }
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        view.findViewById<Button>(R.id.mkt_btn).setOnClickListener {
-            view.findNavController().navigate(R.id.action_landing_fragment_to_shopfragment3)
-        }
-    }
 
 }
