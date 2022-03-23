@@ -8,5 +8,5 @@ Landing page - login page (linked to "Registration" activity directly)
 Basic login using firebase not yet implemented.
 :((
 
-
+Jus for streaks
 
