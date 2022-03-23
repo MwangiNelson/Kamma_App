@@ -333,7 +333,7 @@
     <TableLayout
         android:id="@+id/leaderboards"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="0dp"
         android:layout_margin="10dp"
         android:background="#DA2196F3"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -343,6 +343,49 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10"
         app:layout_constraintVertical_bias="0.0">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contextClickable="true"
+            android:weightSum="4">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:padding="5dp"
+                android:text="RANK"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.25"
+                android:padding="5dp"
+                android:text="NAME"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.25"
+                android:padding="5dp"
+                android:text="PURCHASES"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.25"
+                android:padding="5dp"
+                android:text="REWARD"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+        </TableRow>
 
     </TableLayout>
 
