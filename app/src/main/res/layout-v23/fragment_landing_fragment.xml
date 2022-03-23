@@ -44,7 +44,7 @@
             android:weightSum="3">
 
 
-            a<LinearLayout
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -53,8 +53,7 @@
                 android:foreground="?attr/selectableItemBackground"
 
                 android:orientation="vertical"
-                android:focusable="true"
-                tools:targetApi="m">
+                android:focusable="true">
 
                 <ImageView
                     android:id="@+id/pigBank"
@@ -297,7 +296,7 @@
                 android:text="View History >>"
 
                 android:textColor="@color/teal_700"
-                tools:ignore="TextContrastCheck,TextContrastCheck" />
+                tools:ignore="TextContrastCheck" />
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
@@ -388,12 +387,6 @@
                 android:textAlignment="center"
                 android:textColor="@color/black" />
         </TableRow>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginHorizontal="5dp"
-            android:background="#4C4747"
-            android:gravity="center" />
 
     </TableLayout>
 
