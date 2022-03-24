@@ -39,11 +39,11 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center"
+                android:gravity="center_horizontal|center_vertical|end"
+                android:paddingEnd="10sp"
                 android:text="@string/store"
                 android:textColor="@color/white"
-                android:textSize="25sp"
-                />
+                android:textSize="25sp" />
         </LinearLayout>
 
         <com.google.android.material.tabs.TabLayout
