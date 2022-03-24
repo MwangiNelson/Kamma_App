@@ -44,7 +44,7 @@ class login_fragment : Fragment() {
         }
 
         view.findViewById<TextView>(R.id.login_button).setOnClickListener {
-
+            view.findNavController().navigate(R.id.action_login_fragment_to_landing_fragment)
 
         }
     }

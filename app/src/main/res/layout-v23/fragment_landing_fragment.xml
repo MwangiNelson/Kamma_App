@@ -387,6 +387,12 @@
                 android:textAlignment="center"
                 android:textColor="@color/black" />
         </TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginHorizontal="5dp"
+            android:background="#4C4747"
+            android:gravity="center" />
 
     </TableLayout>
 

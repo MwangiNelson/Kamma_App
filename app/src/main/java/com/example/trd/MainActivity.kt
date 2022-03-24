@@ -1,8 +1,10 @@
 package com.example.trd
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Button
 import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
@@ -15,5 +17,11 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        view.findViewById<Button>(R.id.mkt_btn).setOnClickListener {
+            val intent = Intent(this,mkt_activity::class.java)
+            startActivity(intent)
+        }
+    }
 
 }

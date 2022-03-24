@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_2_round"
         android:supportsRtl="true"
         android:theme="@style/all_text">
-           <activity
+        <activity
+            android:name=".mkt_activity"
+            android:exported="false"
+            android:label="@string/title_activity_mkt"
+            android:theme="@style/all_text.NoActionBar" />
+        <activity
             android:name=".registration_activity"
             android:exported="false" />
         <activity

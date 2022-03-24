@@ -19,10 +19,11 @@
     <string name="search">Search</string>
     <string name="deposit">deposit</string>
     <string name="title_activity_market">market</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_1">STORES</string>
+    <string name="tab_text_2">CATEGORIES</string>
     <string name="stores">STORES</string>
     <string name="categories">CATEGORIES</string>
     <string name="items">ITEMS</string>
     <string name="title_activity_shop_store">shop_store</string>
+    <string name="title_activity_mkt">mkt_activity</string>
 </resources>
