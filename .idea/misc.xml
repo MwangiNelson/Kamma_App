@@ -4,13 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/drawable-v24/ic_baseline_email_24.xml" value="0.1935" />
+        <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.3495" />
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1935" />
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout-v21/activity_shop_store.xml" value="0.3625" />
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout-v21/fragment_shopfragment.xml" value="0.25" />
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout-v23/fragment_landing_fragment.xml" value="0.33" />
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/activity_market.xml" value="0.3625" />
-        <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/activity_mkt.xml" value="0.3625" />
+        <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/activity_mkt.xml" value="0.25" />
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/activity_registration.xml" value="0.5" />
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/activity_shop_store.xml" value="0.25" />
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/fragment_items_fragment.xml" value="0.3484375" />

@@ -26,4 +26,5 @@
     <string name="items">ITEMS</string>
     <string name="title_activity_shop_store">shop_store</string>
     <string name="title_activity_mkt">mkt_activity</string>
+    <string name="store">STORE</string>
 </resources>

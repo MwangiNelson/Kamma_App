@@ -16,6 +16,8 @@ class landing_fragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+
+
     }
 
     override fun onCreateView(
@@ -25,6 +27,20 @@ class landing_fragment : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_landing_fragment, container, false)
     }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val buttonMkt = view.findViewById<Button>(R.id.mkt_btn)
+        buttonMkt.setOnClickListener{
+            activity?.let {
+                val intent = Intent(it,mkt_activity::class.java)
+                it.startActivity(intent)
+            }
+        }
+
+
+    }
+
 
 
 }

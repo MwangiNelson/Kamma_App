@@ -17,11 +17,4 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        view.findViewById<Button>(R.id.mkt_btn).setOnClickListener {
-            val intent = Intent(this,mkt_activity::class.java)
-            startActivity(intent)
-        }
-    }
-
 }
