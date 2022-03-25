@@ -34,7 +34,8 @@
             app:layout_constraintHorizontal_bias="0.07"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.036">
+            app:layout_constraintVertical_bias="0.036"
+            tools:targetApi="lollipop">
 
 
             <LinearLayout
@@ -49,7 +50,9 @@
                     android:layout_gravity="center"
                     android:layout_margin="10dp"
                     android:background="@drawable/px420"
-                    android:scaleType="centerCrop" />
+                    android:contentDescription="@string/todo"
+                    android:scaleType="centerCrop"
+                    tools:ignore="ImageContrastCheck" />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/button_x"
@@ -59,7 +62,8 @@
                     android:layout_margin="10dp"
                     android:fontFamily="@font/barlow_condensed_medium"
                     android:gravity="center"
-                    android:text="VIEW ITEM" />
+                    android:text="@string/view_item"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
 
 
             </LinearLayout>
@@ -77,7 +81,8 @@
             app:layout_constraintHorizontal_bias="0.929"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.036">
+            app:layout_constraintVertical_bias="0.036"
+            tools:targetApi="lollipop">
 
 
             <LinearLayout
@@ -92,7 +97,9 @@
                     android:layout_gravity="center"
                     android:layout_margin="10dp"
                     android:background="@drawable/px420"
-                    android:scaleType="centerCrop" />
+                    android:contentDescription="@string/todo"
+                    android:scaleType="centerCrop"
+                    tools:ignore="ImageContrastCheck" />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/button2"
@@ -102,7 +109,7 @@
                     android:layout_margin="10dp"
                     android:fontFamily="@font/barlow_condensed_medium"
                     android:gravity="center"
-                    android:text="VIEW ITEM" />
+                    android:text="@string/view_item" />
 
 
             </LinearLayout>
