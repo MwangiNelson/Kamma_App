@@ -19,6 +19,17 @@ class mkt_activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+
+        var actionBar = getSupportActionBar()
+
+        // showing the back button in action bar
+        if (actionBar != null) {
+            actionBar.setDisplayHomeAsUpEnabled(true)
+        }
+
+
+
+
         binding = ActivityMktBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -30,4 +41,14 @@ class mkt_activity : AppCompatActivity() {
 
 
     }
+    override fun onContextItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            android.R.id.home -> {
+                finish()
+                return true
+            }
+        }
+        return super.onContextItemSelected(item)
+    }
+
 }

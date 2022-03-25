@@ -14,6 +14,7 @@ private val TAB_TITLES = arrayOf(
 )
 
 private val frags = arrayListOf<Fragment>(
+    items_list(),
     mkt_fragment()
 )
 /**
@@ -26,7 +27,7 @@ class SectionsPagerAdapter(private val context: Context, fm: FragmentManager)
     override fun getItem(position: Int): Fragment {
         // getItem is called to instantiate the fragment for the given page.
         // Return a PlaceholderFragment (defined as a static inner class below).
-        return items_list()
+        return frags.get(index = position)
     }
 
     override fun getPageTitle(position: Int): CharSequence? {
