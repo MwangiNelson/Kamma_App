@@ -30,8 +30,16 @@ class landing_fragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        val purchase_icon = view.findViewById<TextView>(R.id.purchase_text)
         val buttonMkt = view.findViewById<Button>(R.id.mkt_btn)
         buttonMkt.setOnClickListener{
+            activity?.let {
+                val intent = Intent(it,mkt_activity::class.java)
+                it.startActivity(intent)
+            }
+        }
+        purchase_icon.setOnClickListener{
             activity?.let {
                 val intent = Intent(it,mkt_activity::class.java)
                 it.startActivity(intent)
