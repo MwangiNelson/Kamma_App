@@ -10,3 +10,5 @@ Basic login using firebase not yet implemented.
 
 Jus for streaks
 
+Learnt:
+-Implementation of uhd images causes lag while displaying(better off using mid quality images)
