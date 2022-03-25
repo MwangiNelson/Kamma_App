@@ -28,7 +28,5 @@
     <string name="title_activity_mkt">mkt_activity</string>
     <string name="store">STORE</string>
     <string name="view_item">VIEW ITEM</string>
-    <string name="view_item">VIEW ITEM</string>
-    <string name="todo">TODO</string>
     <string name="todo">TODO</string>
 </resources>

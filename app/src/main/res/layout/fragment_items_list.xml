@@ -49,7 +49,7 @@
                     android:layout_height="200dp"
                     android:layout_gravity="center"
                     android:layout_margin="10dp"
-                    android:background="@drawable/cookies"
+                    android:background="@drawable/cookies2"
                     android:contentDescription="@string/todo"
                     android:scaleType="fitCenter"
                     tools:ignore="ImageContrastCheck" />
@@ -96,7 +96,7 @@
                     android:layout_height="200dp"
                     android:layout_gravity="center"
                     android:layout_margin="10dp"
-                    android:background="@drawable/burger"
+                    android:background="@drawable/burger2"
                     android:contentDescription="@string/todo"
                     android:scaleType="centerCrop"
                     tools:ignore="ImageContrastCheck" />
@@ -142,7 +142,7 @@
                     android:layout_height="200dp"
                     android:layout_gravity="center"
                     android:layout_margin="10dp"
-                    android:background="@drawable/pancakes"
+                    android:background="@drawable/pancakes2"
                     android:contentDescription="@string/todo"
                     android:scaleType="centerCrop"
                     tools:ignore="ImageContrastCheck" />
@@ -188,7 +188,7 @@
                     android:layout_height="200dp"
                     android:layout_gravity="center"
                     android:layout_margin="10dp"
-                    android:background="@drawable/donuts"
+                    android:background="@drawable/donuts2"
                     android:contentDescription="@string/todo"
                     android:scaleType="centerCrop"
                     tools:ignore="ImageContrastCheck" />
