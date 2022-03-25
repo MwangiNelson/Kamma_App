@@ -8,6 +8,7 @@ import androidx.viewpager.widget.ViewPager
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import androidx.fragment.app.Fragment
 import com.example.trd.ui.main.SectionsPagerAdapter
 import com.example.trd.databinding.ActivityMktBinding
 
