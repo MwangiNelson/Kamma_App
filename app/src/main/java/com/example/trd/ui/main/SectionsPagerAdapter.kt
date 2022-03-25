@@ -25,9 +25,10 @@ class SectionsPagerAdapter(private val context: Context, fm: FragmentManager)
     : FragmentPagerAdapter(fm) {
 
     override fun getItem(position: Int): Fragment {
-        // getItem is called to instantiate the fragment for the given page.
-        // Return a PlaceholderFragment (defined as a static inner class below).
-        return frags.get(index = position)
+        //hii return mthd ya kwanza ndio nilikuwa nadhani itafanya but imezua lol
+        //->
+        // return frags.get(index = position)
+        return items_list()
     }
 
     override fun getPageTitle(position: Int): CharSequence? {
