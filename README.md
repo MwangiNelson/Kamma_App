@@ -12,3 +12,6 @@ Jus for streaks
 
 Learnt:
 -Implementation of uhd images causes lag while displaying(better off using mid quality images)
+
+
+Lazy today so Imma leave this here cause I don't want to destroy the streak
