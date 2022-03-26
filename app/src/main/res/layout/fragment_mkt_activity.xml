@@ -33,14 +33,14 @@
                 android:adjustViewBounds="false"
                 android:scaleType="centerCrop"
                 android:cropToPadding="false"
-                android:src="@drawable/px420" />
+                android:src="@drawable/donuts2" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button"
                 style="@style/all_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Purchase" />
+                android:text="DONUT" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

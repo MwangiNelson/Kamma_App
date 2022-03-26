@@ -27,8 +27,7 @@ class SectionsPagerAdapter(private val context: Context, fm: FragmentManager)
     override fun getItem(position: Int): Fragment {
         //hii return mthd ya kwanza ndio nilikuwa nadhani itafanya but imezua lol
         //->
-        // return frags.get(index = position)
-        return items_list()
+    return frags.get(index = position)
     }
 
     override fun getPageTitle(position: Int): CharSequence? {
