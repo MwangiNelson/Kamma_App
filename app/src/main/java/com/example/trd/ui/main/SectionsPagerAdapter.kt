@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import com.example.trd.R
+import com.example.trd.category_fragment
 import com.example.trd.items_list
 import com.example.trd.mkt_fragment
 
@@ -15,7 +16,7 @@ private val TAB_TITLES = arrayOf(
 
 private val frags = arrayListOf<Fragment>(
     items_list(),
-    mkt_fragment()
+    category_fragment()
 )
 /**
  * A [FragmentPagerAdapter] that returns a fragment corresponding to
