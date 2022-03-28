@@ -221,7 +221,7 @@
                         android:shadowDx="-10"
                         android:shadowDy="0"
                         android:shadowRadius="15"
-                        android:text="60"
+                        android:text="- -"
                         android:textColor="#F5691CE4"
                         android:textSize="60sp" />
                 </LinearLayout>
@@ -277,7 +277,7 @@
                         android:shadowDx="-10"
                         android:shadowDy="0"
                         android:shadowRadius="15"
-                        android:text="100"
+                        android:text="- -"
                         android:textColor="#FFC107"
                         android:textSize="60sp"
                         tools:ignore="TextContrastCheck" />
