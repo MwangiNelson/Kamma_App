@@ -29,4 +29,6 @@
     <string name="store">STORE</string>
     <string name="view_item">VIEW ITEM</string>
     <string name="todo">TODO</string>
+    <string name="beverages">Beverages</string>
+    <string name="soft_drinks">Soft Drinks</string>
 </resources>
