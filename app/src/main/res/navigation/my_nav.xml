@@ -11,24 +11,8 @@
         android:label="fragment_login_fragment"
         tools:layout="@layout/fragment_login_fragment" >
         <action
-            android:id="@+id/action_login_fragment_to_register_fragment"
-            app:destination="@id/register_fragment"
-            app:enterAnim="@android:anim/fade_in"
-            app:exitAnim="@android:anim/fade_out" />
-        <action
             android:id="@+id/action_login_fragment_to_landing_fragment"
             app:destination="@id/landing_fragment"
-            app:enterAnim="@android:anim/fade_in"
-            app:exitAnim="@android:anim/fade_out" />
-    </fragment>
-    <fragment
-        android:id="@+id/register_fragment"
-        android:name="com.example.trd.register_fragment"
-        android:label="fragment_register_fragment"
-        tools:layout="@layout/fragment_register_fragment" >
-        <action
-            android:id="@+id/action_register_fragment_to_login_fragment"
-            app:destination="@id/login_fragment"
             app:enterAnim="@android:anim/fade_in"
             app:exitAnim="@android:anim/fade_out" />
     </fragment>

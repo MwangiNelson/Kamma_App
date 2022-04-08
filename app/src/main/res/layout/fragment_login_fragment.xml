@@ -21,7 +21,7 @@
         android:contentDescription="@string/logo" />
 
     <EditText
-        android:id="@+id/userEmail"
+        android:id="@+id/userLoginEmail"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:autofillHints="Your e-mail goes here."
@@ -41,7 +41,7 @@
         tools:ignore="TextContrastCheck" />
 
     <EditText
-        android:id="@+id/userPassword"
+        android:id="@+id/userLoginPassword"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:autofillHints="Your password goes here"

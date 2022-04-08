@@ -39,9 +39,6 @@ class login_fragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        view.findViewById<TextView>(R.id.register_page_link).setOnClickListener {
-            view.findNavController().navigate(R.id.action_login_fragment_to_register_fragment)
-        }
 
         view.findViewById<TextView>(R.id.login_button).setOnClickListener {
             view.findNavController().navigate(R.id.action_login_fragment_to_landing_fragment)

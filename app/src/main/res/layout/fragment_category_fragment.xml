@@ -10,8 +10,8 @@
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -25,52 +25,54 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:text="@string/beverages"
-                android:textSize="20sp"
                 android:gravity="center"
-                />
+                android:text="@string/beverages"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
             <GridLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="2"
-                android:rowCount="1"
-                >
+                android:rowCount="1">
+
                 <androidx.cardview.widget.CardView
                     android:layout_width="0dp"
-                    android:layout_columnWeight="1"
                     android:layout_height="250dp"
+                    android:layout_columnWeight="1"
                     android:layout_margin="10dp"
-                    app:cardCornerRadius="5dp"
                     android:backgroundTint="#DA480187"
+                    app:cardCornerRadius="5dp"
                     tools:targetApi="lollipop">
+
                     <androidx.appcompat.widget.LinearLayoutCompat
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        >
+                        android:orientation="vertical">
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="@string/soft_drinks"
                             android:gravity="center"
-                            android:textSize="20sp"
+                            android:text="@string/soft_drinks"
                             android:textColor="@color/white"
-                            />
+                            android:textSize="20sp" />
+
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_marginTop="5dp"
                             android:layout_height="1dp"
                             android:layout_marginHorizontal="15dp"
+                            android:layout_marginTop="5dp"
                             android:background="@color/white"
                             android:gravity="center" />
+
                         <ImageView
                             android:id="@+id/imageView6"
-                            android:layout_marginTop="10dp"
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
-                            android:src="@drawable/softdrink"
-                            android:contentDescription="Soft_drink" />
+                            android:layout_marginTop="10dp"
+                            android:contentDescription="Soft_drink"
+                            android:src="@drawable/softdrink" />
 
                         <com.google.android.material.button.MaterialButton
                             android:layout_width="match_parent"
@@ -84,62 +86,61 @@
 
                     </androidx.appcompat.widget.LinearLayoutCompat>
                 </androidx.cardview.widget.CardView>
+
                 <androidx.cardview.widget.CardView
                     android:layout_width="0dp"
-                    android:layout_columnWeight="1"
                     android:layout_height="250dp"
+                    android:layout_columnWeight="1"
                     android:layout_margin="10dp"
-                    app:cardCornerRadius="5dp"
                     android:backgroundTint="#DA480187"
-                    >
+                    app:cardCornerRadius="5dp">
 
                     <androidx.appcompat.widget.LinearLayoutCompat
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        >
+                        android:orientation="vertical">
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Liqour"
                             android:gravity="center"
-                            android:textSize="20dp"
+                            android:text="Liqour"
                             android:textColor="@color/white"
-                            />
+                            android:textSize="20dp" />
+
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_marginTop="5dp"
                             android:layout_height="1dp"
                             android:layout_marginHorizontal="15dp"
+                            android:layout_marginTop="5dp"
                             android:background="@color/white"
                             android:gravity="center" />
+
                         <ImageView
                             android:id="@+id/imageView7"
-                            android:layout_marginTop="10dp"
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
+                            android:layout_marginTop="10dp"
                             android:src="@drawable/beverages" />
 
                         <com.google.android.material.button.MaterialButton
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
                             android:layout_marginHorizontal="10dp"
+                            android:layout_marginTop="10dp"
                             android:fontFamily="@font/barlow_condensed_medium"
-                            android:text="GO TO STORE"
-                            />
+                            android:text="GO TO STORE" />
 
 
                     </androidx.appcompat.widget.LinearLayoutCompat>
                 </androidx.cardview.widget.CardView>
-
-
 
 
             </GridLayout>
 
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -153,52 +154,54 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:text="Foods"
-                android:textSize="20sp"
                 android:gravity="center"
-                />
+                android:text="Foods"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
             <GridLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="2"
-                android:rowCount="1"
-                >
+                android:rowCount="1">
+
                 <androidx.cardview.widget.CardView
                     android:layout_width="0dp"
-                    android:layout_columnWeight="1"
                     android:layout_height="250dp"
+                    android:layout_columnWeight="1"
                     android:layout_margin="10dp"
-                    app:cardCornerRadius="5dp"
                     android:backgroundTint="#DA480187"
+                    app:cardCornerRadius="5dp"
                     tools:targetApi="lollipop">
+
                     <androidx.appcompat.widget.LinearLayoutCompat
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        >
+                        android:orientation="vertical">
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Fast foods"
                             android:gravity="center"
-                            android:textSize="20sp"
+                            android:text="Fast foods"
                             android:textColor="@color/white"
-                            />
+                            android:textSize="20sp" />
+
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_marginTop="5dp"
                             android:layout_height="1dp"
                             android:layout_marginHorizontal="15dp"
+                            android:layout_marginTop="5dp"
                             android:background="@color/white"
                             android:gravity="center" />
+
                         <ImageView
                             android:id="@+id/imageView8"
-                            android:layout_marginTop="10dp"
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
-                            android:src="@drawable/fastfood"
-                            android:contentDescription="Fast Food" />
+                            android:layout_marginTop="10dp"
+                            android:contentDescription="Fast Food"
+                            android:src="@drawable/fastfood" />
 
                         <com.google.android.material.button.MaterialButton
                             android:layout_width="match_parent"
@@ -212,56 +215,54 @@
 
                     </androidx.appcompat.widget.LinearLayoutCompat>
                 </androidx.cardview.widget.CardView>
+
                 <androidx.cardview.widget.CardView
                     android:layout_width="0dp"
-                    android:layout_columnWeight="1"
                     android:layout_height="250dp"
+                    android:layout_columnWeight="1"
                     android:layout_margin="10dp"
-                    app:cardCornerRadius="5dp"
                     android:backgroundTint="#DA480187"
-                    >
+                    app:cardCornerRadius="5dp">
 
                     <androidx.appcompat.widget.LinearLayoutCompat
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        >
+                        android:orientation="vertical">
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Restaurants"
                             android:gravity="center"
-                            android:textSize="20dp"
+                            android:text="Restaurants"
                             android:textColor="@color/white"
-                            />
+                            android:textSize="20dp" />
+
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_marginTop="5dp"
                             android:layout_height="1dp"
                             android:layout_marginHorizontal="15dp"
+                            android:layout_marginTop="5dp"
                             android:background="@color/white"
                             android:gravity="center" />
+
                         <ImageView
                             android:id="@+id/imageView9"
-                            android:layout_marginTop="10dp"
                             android:layout_width="match_parent"
                             android:layout_height="150dp"
+                            android:layout_marginTop="10dp"
                             android:src="@drawable/food" />
 
                         <com.google.android.material.button.MaterialButton
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="10dp"
                             android:layout_marginHorizontal="10dp"
+                            android:layout_marginTop="10dp"
                             android:fontFamily="@font/barlow_condensed_medium"
-                            android:text="GO TO STORE"
-                            />
+                            android:text="GO TO STORE" />
 
 
                     </androidx.appcompat.widget.LinearLayoutCompat>
                 </androidx.cardview.widget.CardView>
-
-
 
 
             </GridLayout>
@@ -270,9 +271,6 @@
         </LinearLayout>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
-
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
