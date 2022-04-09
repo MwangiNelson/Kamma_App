@@ -28,13 +28,7 @@ class mkt_activity : AppCompatActivity() {
             actionBar.setDisplayHomeAsUpEnabled(true)
         }
 
-        val user_id = intent.getStringExtra("user_id")
 
-        Toast.makeText(
-            this@mkt_activity,
-            "User Id $user_id has logged in.",
-            Toast.LENGTH_SHORT
-        ).show()
 
 
 

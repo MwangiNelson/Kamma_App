@@ -3,24 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:id="@+id/landing_fragment"
-    android:layout_height="match_parent"
     android:background="@drawable/p4"
-    tools:context=".landing_fragment"
-    tools:ignore="InvalidId">
-
+    android:layout_height="match_parent"
+    tools:context=".Landing_activity">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#C89C0042"
+        android:background="#E16200EE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:navigationIcon="@drawable/ic_baseline_sort_24" />
+        app:navigationIcon="@drawable/ic_baseline_menu_24" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_1"
@@ -285,6 +282,7 @@
             </LinearLayout>
 
             <TextView
+                android:id="@+id/logout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:clickable="true"
@@ -296,7 +294,7 @@
                 android:padding="5dp"
                 android:shadowColor="#2B2E2E"
                 android:shadowRadius="10"
-                android:text="View History >>"
+                android:text="Log Out >>"
 
                 android:textColor="@color/teal_700"
                 tools:ignore="TextContrastCheck" />
@@ -398,5 +396,22 @@
             android:gravity="center" />
 
     </TableLayout>
+
+    <TextView
+        android:id="@+id/userEmailLanding"
+        android:layout_width="240dp"
+        android:layout_height="0dp"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:drawableTint="@color/white"
+        android:gravity="center"
+        android:text="123example@gmail.com"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.0" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
