@@ -76,7 +76,8 @@
             app:startIconDrawable="@drawable/ic_baseline_vpn_key_24">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/userPassword2"
+                android:id="@+id/userPassword"
+                android:inputType="textPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/barlow_condensed_medium" />
@@ -101,6 +102,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/ConfirmPassword"
                 android:layout_width="match_parent"
+                android:inputType="textPassword"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/barlow_condensed_medium" />
         </com.google.android.material.textfield.TextInputLayout>
