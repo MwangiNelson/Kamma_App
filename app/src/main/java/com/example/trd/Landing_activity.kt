@@ -26,5 +26,9 @@ class Landing_activity : AppCompatActivity() {
             finish()
         }
 
+        mkt_btn.setOnClickListener{
+            startActivity(Intent(this, mkt_activity::class.java ))
+
+        }
     }
 }
