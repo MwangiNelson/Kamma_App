@@ -9,6 +9,7 @@
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout-v21/activity_shop_store.xml" value="0.3625" />
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout-v21/fragment_shopfragment.xml" value="0.25" />
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout-v23/fragment_landing_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/activity_home.xml" value="0.3625" />
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/activity_landing.xml" value="0.5" />
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/activity_market.xml" value="0.3625" />
@@ -17,7 +18,11 @@
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/activity_registration.xml" value="0.5" />
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/activity_shop_store.xml" value="0.25" />
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/activity_splash_screen.xml" value="0.3625" />
+        <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/app_bar_home.xml" value="0.3625" />
+        <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/content_home.xml" value="0.3625" />
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/fragment_category_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/fragment_gallery.xml" value="0.3625" />
+        <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/fragment_home.xml" value="0.3625" />
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/fragment_items_fragment.xml" value="0.3484375" />
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/fragment_items_list.xml" value="0.22" />
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/fragment_landing_fragment.xml" value="0.5" />
@@ -27,7 +32,10 @@
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/fragment_register_fragment.xml" value="0.33" />
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/fragment_shop_store.xml" value="0.1" />
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/fragment_shopfragment.xml" value="0.15" />
+        <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/fragment_slideshow.xml" value="0.3625" />
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/fragment_stores_fragment.xml" value="0.3484375" />
+        <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/layout/nav_header_home.xml" value="0.3625" />
+        <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/menu/activity_main_drawer.xml" value="0.3625" />
         <entry key="..\:/Users/Shadow/AndroidStudioProjects/TRD/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3635" />
       </map>
     </option>

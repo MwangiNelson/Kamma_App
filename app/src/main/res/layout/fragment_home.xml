@@ -3,21 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/p4"
+    android:background="@drawable/p3"
     android:layout_height="match_parent"
-    tools:context=".Landing_activity">
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#E16200EE"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:navigationIcon="@drawable/ic_baseline_menu_24" />
+    tools:context=".ui.home.HomeFragment">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_1"
@@ -30,7 +18,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.139">
 
 
@@ -128,19 +116,29 @@
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
-
-    <SearchView
-        android:id="@+id/search_bar"
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:startIconDrawable="@drawable/ic_baseline_search"
+        app:endIconMode="clear_text"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_margin="10dp"
-        android:layout_marginTop="16dp"
-        android:background="#50000000"
+        android:layout_height="wrap_content"
+        android:hint="Search"
+        app:boxBackgroundColor="#50000000"
+        app:boxStrokeColor="#50000000"
+        app:hintTextColor="@color/ic_launcher_background"
+        android:layout_margin="@dimen/activity_vertical_margin"
         app:layout_constraintBottom_toTopOf="@+id/card_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+        app:layout_constraintTop_toTopOf="parent" >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/barlow_condensed_medium"
+            android:id="@id/search_bar"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:id="@+id/textView7"
@@ -396,24 +394,6 @@
             android:gravity="center" />
 
     </TableLayout>
-
-    <TextView
-        android:id="@+id/userEmailLanding"
-        android:layout_width="wrap_content"
-        android:padding="@dimen/activity_vertical_margin"
-        android:layout_height="0dp"
-        android:drawableStart="@drawable/ic_baseline_account_circle"
-        android:drawableTint="@color/white"
-        android:gravity="center"
-        android:text="123example@gmail.com"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
-        android:drawablePadding="@dimen/activity_vertical_margin"
-        app:layout_constraintEnd_toEndOf="@+id/toolbar"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/toolbar"
-        app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

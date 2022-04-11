@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.trd" >
+    package="com.example.trd">
 
     <application
         android:allowBackup="true"
@@ -8,10 +8,15 @@
         android:label="Nelson&apos;s"
         android:roundIcon="@mipmap/ic_launcher_2_round"
         android:supportsRtl="true"
-        android:theme="@style/all_text" >
+        android:theme="@style/all_text">
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/all_text.NoActionBar" />
         <activity
             android:name=".SplashScreen"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -31,9 +36,7 @@
             android:theme="@style/all_text.NoActionBar" />
         <activity
             android:name=".MainActivity"
-            android:exported="false" >
-
-        </activity>
+            android:exported="false"></activity>
 
         <meta-data
             android:name="preloaded_fonts"
